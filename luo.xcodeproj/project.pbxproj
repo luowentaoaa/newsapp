@@ -3,19 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0165D1A1BB36416A20C61071 /* Pods_luoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA23F2B168143BC8A422E1F /* Pods_luoUITests.framework */; };
+		2A31375524A4A9D7001D0E41 /* LUOMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31375424A4A9D7001D0E41 /* LUOMineViewController.m */; };
+		2A31375924A4AB79001D0E41 /* LUORecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31375824A4AB79001D0E41 /* LUORecommendViewController.m */; };
+		2A31375E24A4AEAA001D0E41 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A31375D24A4AEAA001D0E41 /* SystemConfiguration.framework */; };
+		2A31376124A4B1DE001D0E41 /* LUOLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A31376024A4B1DE001D0E41 /* LUOLogin.m */; };
+		2A31376224A4B2F9001D0E41 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A31375A24A4AE6F001D0E41 /* TencentOpenAPI.framework */; };
 		2A92C0582498CF3900760FFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C0572498CF3900760FFD /* AppDelegate.m */; };
 		2A92C05B2498CF3900760FFD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C05A2498CF3900760FFD /* SceneDelegate.m */; };
-		2A92C05E2498CF3900760FFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C05D2498CF3900760FFD /* ViewController.m */; };
-		2A92C0612498CF3900760FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92C05F2498CF3900760FFD /* Main.storyboard */; };
+		2A92C05E2498CF3900760FFD /* LUONewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C05D2498CF3900760FFD /* LUONewsViewController.m */; };
 		2A92C0632498CF3A00760FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A92C0622498CF3A00760FFD /* Assets.xcassets */; };
 		2A92C0662498CF3A00760FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92C0642498CF3A00760FFD /* LaunchScreen.storyboard */; };
 		2A92C0692498CF3A00760FFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C0682498CF3A00760FFD /* main.m */; };
 		2A92C0732498CF3A00760FFD /* luoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C0722498CF3A00760FFD /* luoTests.m */; };
 		2A92C07E2498CF3A00760FFD /* luoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C07D2498CF3A00760FFD /* luoUITests.m */; };
+		2A92C08C2498D31D00760FFD /* icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A92C08B2498D31D00760FFD /* icon.bundle */; };
+		2A92C094249944B400760FFD /* LUONewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C093249944B400760FFD /* LUONewsTableViewCell.m */; };
+		2A92C0972499454400760FFD /* LUOListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C0962499454400760FFD /* LUOListItem.m */; };
+		2A92C09A249948CF00760FFD /* LUOListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C099249948CF00760FFD /* LUOListLoader.m */; };
+		2A92C09D24994BB700760FFD /* LUODetaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C09C24994BB700760FFD /* LUODetaiViewController.m */; };
+		2A92C0A024994EB800760FFD /* LUODeleteCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C09F24994EB800760FFD /* LUODeleteCellView.m */; };
+		2AB8A63B24A3607E007E1358 /* LUOScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8A63A24A3607E007E1358 /* LUOScreen.m */; };
+		2AB8A63E24A37BE4007E1358 /* LUOVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8A63D24A37BE4007E1358 /* LUOVideoPlayer.m */; };
+		2AB8A64124A38517007E1358 /* LUOVideoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8A64024A38517007E1358 /* LUOVideoToolbar.m */; };
+		2AB8A64424A3C033007E1358 /* LUOMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8A64324A3C033007E1358 /* LUOMediator.m */; };
+		2AEBF989249BD7B0007DFB01 /* LUOVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBF988249BD7B0007DFB01 /* LUOVideoViewController.m */; };
+		2AEBF98C249BE1EF007DFB01 /* LUOVideoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBF98B249BE1EF007DFB01 /* LUOVideoCollectionViewCell.m */; };
+		495E579070A93274FF36F61A /* Pods_luoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AB9818C155F46CC939F992 /* Pods_luoTests.framework */; };
+		904BECF053D7B2CF135D9936 /* Pods_luo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106FFDFA8616169F6DA48F52 /* Pods_luo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +55,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		106FFDFA8616169F6DA48F52 /* Pods_luo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_luo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A31375324A4A9D7001D0E41 /* LUOMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUOMineViewController.h; sourceTree = "<group>"; };
+		2A31375424A4A9D7001D0E41 /* LUOMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUOMineViewController.m; sourceTree = "<group>"; };
+		2A31375724A4AB79001D0E41 /* LUORecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUORecommendViewController.h; sourceTree = "<group>"; };
+		2A31375824A4AB79001D0E41 /* LUORecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUORecommendViewController.m; sourceTree = "<group>"; };
+		2A31375A24A4AE6F001D0E41 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		2A31375D24A4AEAA001D0E41 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2A31375F24A4B1DE001D0E41 /* LUOLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUOLogin.h; sourceTree = "<group>"; };
+		2A31376024A4B1DE001D0E41 /* LUOLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUOLogin.m; sourceTree = "<group>"; };
 		2A92C0532498CF3900760FFD /* luo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A92C0562498CF3900760FFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A92C0572498CF3900760FFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2A92C0592498CF3900760FFD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		2A92C05A2498CF3900760FFD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2A92C05C2498CF3900760FFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A92C05D2498CF3900760FFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2A92C0602498CF3900760FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A92C05C2498CF3900760FFD /* LUONewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUONewsViewController.h; sourceTree = "<group>"; };
+		2A92C05D2498CF3900760FFD /* LUONewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUONewsViewController.m; sourceTree = "<group>"; };
 		2A92C0622498CF3A00760FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A92C0652498CF3A00760FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A92C0672498CF3A00760FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +81,37 @@
 		2A92C0792498CF3A00760FFD /* luoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A92C07D2498CF3A00760FFD /* luoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = luoUITests.m; sourceTree = "<group>"; };
 		2A92C07F2498CF3A00760FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A92C08B2498D31D00760FFD /* icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icon.bundle; sourceTree = "<group>"; };
+		2A92C092249944B400760FFD /* LUONewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUONewsTableViewCell.h; sourceTree = "<group>"; };
+		2A92C093249944B400760FFD /* LUONewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUONewsTableViewCell.m; sourceTree = "<group>"; };
+		2A92C0952499454400760FFD /* LUOListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUOListItem.h; sourceTree = "<group>"; };
+		2A92C0962499454400760FFD /* LUOListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUOListItem.m; sourceTree = "<group>"; };
+		2A92C098249948CF00760FFD /* LUOListLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUOListLoader.h; sourceTree = "<group>"; };
+		2A92C099249948CF00760FFD /* LUOListLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUOListLoader.m; sourceTree = "<group>"; };
+		2A92C09B24994BB700760FFD /* LUODetaiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUODetaiViewController.h; sourceTree = "<group>"; };
+		2A92C09C24994BB700760FFD /* LUODetaiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUODetaiViewController.m; sourceTree = "<group>"; };
+		2A92C09E24994EB800760FFD /* LUODeleteCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUODeleteCellView.h; sourceTree = "<group>"; };
+		2A92C09F24994EB800760FFD /* LUODeleteCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUODeleteCellView.m; sourceTree = "<group>"; };
+		2AB8A63924A3607E007E1358 /* LUOScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUOScreen.h; sourceTree = "<group>"; };
+		2AB8A63A24A3607E007E1358 /* LUOScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUOScreen.m; sourceTree = "<group>"; };
+		2AB8A63C24A37BE4007E1358 /* LUOVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUOVideoPlayer.h; sourceTree = "<group>"; };
+		2AB8A63D24A37BE4007E1358 /* LUOVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUOVideoPlayer.m; sourceTree = "<group>"; };
+		2AB8A63F24A38517007E1358 /* LUOVideoToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUOVideoToolbar.h; sourceTree = "<group>"; };
+		2AB8A64024A38517007E1358 /* LUOVideoToolbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUOVideoToolbar.m; sourceTree = "<group>"; };
+		2AB8A64224A3C033007E1358 /* LUOMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUOMediator.h; sourceTree = "<group>"; };
+		2AB8A64324A3C033007E1358 /* LUOMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUOMediator.m; sourceTree = "<group>"; };
+		2AEBF987249BD7B0007DFB01 /* LUOVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUOVideoViewController.h; sourceTree = "<group>"; };
+		2AEBF988249BD7B0007DFB01 /* LUOVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUOVideoViewController.m; sourceTree = "<group>"; };
+		2AEBF98A249BE1EF007DFB01 /* LUOVideoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUOVideoCollectionViewCell.h; sourceTree = "<group>"; };
+		2AEBF98B249BE1EF007DFB01 /* LUOVideoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUOVideoCollectionViewCell.m; sourceTree = "<group>"; };
+		2CB88337D67EF40201633996 /* Pods-luo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luo.debug.xcconfig"; path = "Target Support Files/Pods-luo/Pods-luo.debug.xcconfig"; sourceTree = "<group>"; };
+		5B59E5D43A2C2E6829702489 /* Pods-luo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luo.release.xcconfig"; path = "Target Support Files/Pods-luo/Pods-luo.release.xcconfig"; sourceTree = "<group>"; };
+		85AB9818C155F46CC939F992 /* Pods_luoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_luoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CD4C89EB74EE8A7D5CD24C /* Pods-luoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luoTests.debug.xcconfig"; path = "Target Support Files/Pods-luoTests/Pods-luoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F1445B9DEF045CA0F82CF2D /* Pods-luoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luoUITests.debug.xcconfig"; path = "Target Support Files/Pods-luoUITests/Pods-luoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA23F2B168143BC8A422E1F /* Pods_luoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_luoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72D352B0923A9DDB77275C8 /* Pods-luoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luoTests.release.xcconfig"; path = "Target Support Files/Pods-luoTests/Pods-luoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF92BFEE6E06AD875C22E48C /* Pods-luoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-luoUITests.release.xcconfig"; path = "Target Support Files/Pods-luoUITests/Pods-luoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +119,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904BECF053D7B2CF135D9936 /* Pods_luo.framework in Frameworks */,
+				2A31376224A4B2F9001D0E41 /* TencentOpenAPI.framework in Frameworks */,
+				2A31375E24A4AEAA001D0E41 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495E579070A93274FF36F61A /* Pods_luoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +137,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0165D1A1BB36416A20C61071 /* Pods_luoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A31375224A4A9AF001D0E41 /* MineController */ = {
+			isa = PBXGroup;
+			children = (
+				2A31375324A4A9D7001D0E41 /* LUOMineViewController.h */,
+				2A31375424A4A9D7001D0E41 /* LUOMineViewController.m */,
+				2A31375F24A4B1DE001D0E41 /* LUOLogin.h */,
+				2A31376024A4B1DE001D0E41 /* LUOLogin.m */,
+			);
+			path = MineController;
+			sourceTree = "<group>";
+		};
+		2A31375624A4AB5A001D0E41 /* RecommendController */ = {
+			isa = PBXGroup;
+			children = (
+				2A31375724A4AB79001D0E41 /* LUORecommendViewController.h */,
+				2A31375824A4AB79001D0E41 /* LUORecommendViewController.m */,
+			);
+			path = RecommendController;
+			sourceTree = "<group>";
+		};
+		2A31375C24A4AE75001D0E41 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				2A31375A24A4AE6F001D0E41 /* TencentOpenAPI.framework */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
 		2A92C04A2498CF3900760FFD = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +179,8 @@
 				2A92C0712498CF3A00760FFD /* luoTests */,
 				2A92C07C2498CF3A00760FFD /* luoUITests */,
 				2A92C0542498CF3900760FFD /* Products */,
+				65C796763F0FE2DEB52EC68F /* Pods */,
+				E3F594F8DB09A3D7D3B17AE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,13 +197,17 @@
 		2A92C0552498CF3900760FFD /* luo */ = {
 			isa = PBXGroup;
 			children = (
+				2A31375C24A4AE75001D0E41 /* framework */,
+				2A31375624A4AB5A001D0E41 /* RecommendController */,
+				2A31375224A4A9AF001D0E41 /* MineController */,
+				2AB8A63824A36021007E1358 /* Utils */,
+				2AEBF986249BD776007DFB01 /* VideoController */,
+				2A92C08D24992F3900760FFD /* NewsController */,
+				2A92C08B2498D31D00760FFD /* icon.bundle */,
 				2A92C0562498CF3900760FFD /* AppDelegate.h */,
 				2A92C0572498CF3900760FFD /* AppDelegate.m */,
 				2A92C0592498CF3900760FFD /* SceneDelegate.h */,
 				2A92C05A2498CF3900760FFD /* SceneDelegate.m */,
-				2A92C05C2498CF3900760FFD /* ViewController.h */,
-				2A92C05D2498CF3900760FFD /* ViewController.m */,
-				2A92C05F2498CF3900760FFD /* Main.storyboard */,
 				2A92C0622498CF3A00760FFD /* Assets.xcassets */,
 				2A92C0642498CF3A00760FFD /* LaunchScreen.storyboard */,
 				2A92C0672498CF3A00760FFD /* Info.plist */,
@@ -137,6 +234,107 @@
 			path = luoUITests;
 			sourceTree = "<group>";
 		};
+		2A92C08D24992F3900760FFD /* NewsController */ = {
+			isa = PBXGroup;
+			children = (
+				2A92C0912499308400760FFD /* detail */,
+				2A92C0902499307300760FFD /* Model */,
+				2A92C08F2499306D00760FFD /* Controller */,
+				2A92C08E2499306700760FFD /* View */,
+			);
+			path = NewsController;
+			sourceTree = "<group>";
+		};
+		2A92C08E2499306700760FFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A92C092249944B400760FFD /* LUONewsTableViewCell.h */,
+				2A92C093249944B400760FFD /* LUONewsTableViewCell.m */,
+				2A92C09E24994EB800760FFD /* LUODeleteCellView.h */,
+				2A92C09F24994EB800760FFD /* LUODeleteCellView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A92C08F2499306D00760FFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A92C05C2498CF3900760FFD /* LUONewsViewController.h */,
+				2A92C05D2498CF3900760FFD /* LUONewsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A92C0902499307300760FFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A92C0952499454400760FFD /* LUOListItem.h */,
+				2A92C0962499454400760FFD /* LUOListItem.m */,
+				2A92C098249948CF00760FFD /* LUOListLoader.h */,
+				2A92C099249948CF00760FFD /* LUOListLoader.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A92C0912499308400760FFD /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				2A92C09B24994BB700760FFD /* LUODetaiViewController.h */,
+				2A92C09C24994BB700760FFD /* LUODetaiViewController.m */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		2AB8A63824A36021007E1358 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8A63924A3607E007E1358 /* LUOScreen.h */,
+				2AB8A63A24A3607E007E1358 /* LUOScreen.m */,
+				2AB8A64224A3C033007E1358 /* LUOMediator.h */,
+				2AB8A64324A3C033007E1358 /* LUOMediator.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2AEBF986249BD776007DFB01 /* VideoController */ = {
+			isa = PBXGroup;
+			children = (
+				2AEBF987249BD7B0007DFB01 /* LUOVideoViewController.h */,
+				2AEBF988249BD7B0007DFB01 /* LUOVideoViewController.m */,
+				2AEBF98A249BE1EF007DFB01 /* LUOVideoCollectionViewCell.h */,
+				2AEBF98B249BE1EF007DFB01 /* LUOVideoCollectionViewCell.m */,
+				2AB8A63C24A37BE4007E1358 /* LUOVideoPlayer.h */,
+				2AB8A63D24A37BE4007E1358 /* LUOVideoPlayer.m */,
+				2AB8A63F24A38517007E1358 /* LUOVideoToolbar.h */,
+				2AB8A64024A38517007E1358 /* LUOVideoToolbar.m */,
+			);
+			path = VideoController;
+			sourceTree = "<group>";
+		};
+		65C796763F0FE2DEB52EC68F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CB88337D67EF40201633996 /* Pods-luo.debug.xcconfig */,
+				5B59E5D43A2C2E6829702489 /* Pods-luo.release.xcconfig */,
+				86CD4C89EB74EE8A7D5CD24C /* Pods-luoTests.debug.xcconfig */,
+				D72D352B0923A9DDB77275C8 /* Pods-luoTests.release.xcconfig */,
+				8F1445B9DEF045CA0F82CF2D /* Pods-luoUITests.debug.xcconfig */,
+				FF92BFEE6E06AD875C22E48C /* Pods-luoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3F594F8DB09A3D7D3B17AE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A31375D24A4AEAA001D0E41 /* SystemConfiguration.framework */,
+				106FFDFA8616169F6DA48F52 /* Pods_luo.framework */,
+				85AB9818C155F46CC939F992 /* Pods_luoTests.framework */,
+				CBA23F2B168143BC8A422E1F /* Pods_luoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +342,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A92C0822498CF3A00760FFD /* Build configuration list for PBXNativeTarget "luo" */;
 			buildPhases = (
+				EAFF78F28340CA6960ECB885 /* [CP] Check Pods Manifest.lock */,
 				2A92C04F2498CF3900760FFD /* Sources */,
 				2A92C0502498CF3900760FFD /* Frameworks */,
 				2A92C0512498CF3900760FFD /* Resources */,
+				A63A5C09E88DFCDF45D2CA1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +361,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A92C0852498CF3A00760FFD /* Build configuration list for PBXNativeTarget "luoTests" */;
 			buildPhases = (
+				12F067C329E9C9468C66EE6F /* [CP] Check Pods Manifest.lock */,
 				2A92C06A2498CF3A00760FFD /* Sources */,
 				2A92C06B2498CF3A00760FFD /* Frameworks */,
 				2A92C06C2498CF3A00760FFD /* Resources */,
@@ -179,6 +380,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A92C0882498CF3A00760FFD /* Build configuration list for PBXNativeTarget "luoUITests" */;
 			buildPhases = (
+				10084F2D4E58F1C6D618D524 /* [CP] Check Pods Manifest.lock */,
 				2A92C0752498CF3A00760FFD /* Sources */,
 				2A92C0762498CF3A00760FFD /* Frameworks */,
 				2A92C0772498CF3A00760FFD /* Resources */,
@@ -240,9 +442,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A92C08C2498D31D00760FFD /* icon.bundle in Resources */,
 				2A92C0662498CF3A00760FFD /* LaunchScreen.storyboard in Resources */,
 				2A92C0632498CF3A00760FFD /* Assets.xcassets in Resources */,
-				2A92C0612498CF3900760FFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,13 +464,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10084F2D4E58F1C6D618D524 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-luoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12F067C329E9C9468C66EE6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-luoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A63A5C09E88DFCDF45D2CA1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-luo/Pods-luo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-luo/Pods-luo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-luo/Pods-luo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFF78F28340CA6960ECB885 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-luo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A92C04F2498CF3900760FFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A92C05E2498CF3900760FFD /* ViewController.m in Sources */,
+				2AB8A64424A3C033007E1358 /* LUOMediator.m in Sources */,
+				2AB8A63E24A37BE4007E1358 /* LUOVideoPlayer.m in Sources */,
+				2A92C05E2498CF3900760FFD /* LUONewsViewController.m in Sources */,
+				2A92C09D24994BB700760FFD /* LUODetaiViewController.m in Sources */,
+				2AB8A63B24A3607E007E1358 /* LUOScreen.m in Sources */,
+				2A31375924A4AB79001D0E41 /* LUORecommendViewController.m in Sources */,
+				2A92C0972499454400760FFD /* LUOListItem.m in Sources */,
 				2A92C0582498CF3900760FFD /* AppDelegate.m in Sources */,
+				2A31376124A4B1DE001D0E41 /* LUOLogin.m in Sources */,
+				2A92C09A249948CF00760FFD /* LUOListLoader.m in Sources */,
+				2AEBF98C249BE1EF007DFB01 /* LUOVideoCollectionViewCell.m in Sources */,
+				2A92C0A024994EB800760FFD /* LUODeleteCellView.m in Sources */,
+				2A31375524A4A9D7001D0E41 /* LUOMineViewController.m in Sources */,
+				2A92C094249944B400760FFD /* LUONewsTableViewCell.m in Sources */,
+				2AB8A64124A38517007E1358 /* LUOVideoToolbar.m in Sources */,
+				2AEBF989249BD7B0007DFB01 /* LUOVideoViewController.m in Sources */,
 				2A92C0692498CF3A00760FFD /* main.m in Sources */,
 				2A92C05B2498CF3900760FFD /* SceneDelegate.m in Sources */,
 			);
@@ -306,14 +608,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2A92C05F2498CF3900760FFD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A92C0602498CF3900760FFD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2A92C0642498CF3A00760FFD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,9 +731,15 @@
 		};
 		2A92C0832498CF3A00760FFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB88337D67EF40201633996 /* Pods-luo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/luo",
+					"$(PROJECT_DIR)/luo/framework",
+				);
 				INFOPLIST_FILE = luo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +753,15 @@
 		};
 		2A92C0842498CF3A00760FFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B59E5D43A2C2E6829702489 /* Pods-luo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/luo",
+					"$(PROJECT_DIR)/luo/framework",
+				);
 				INFOPLIST_FILE = luo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,6 +775,7 @@
 		};
 		2A92C0862498CF3A00760FFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CD4C89EB74EE8A7D5CD24C /* Pods-luoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +795,7 @@
 		};
 		2A92C0872498CF3A00760FFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72D352B0923A9DDB77275C8 /* Pods-luoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +815,7 @@
 		};
 		2A92C0892498CF3A00760FFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1445B9DEF045CA0F82CF2D /* Pods-luoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = luoUITests/Info.plist;
@@ -524,6 +833,7 @@
 		};
 		2A92C08A2498CF3A00760FFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF92BFEE6E06AD875C22E48C /* Pods-luoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = luoUITests/Info.plist;
